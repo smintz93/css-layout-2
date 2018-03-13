@@ -5,6 +5,7 @@ html {
 
 body {
 	background-color: blue;
+	height: 100%;
 	}
 
 body * {
@@ -23,8 +24,9 @@ header {
 
 footer {
 	margin-top: 8px;
-	padding: 0px;
 	
+	
+
 
 }
 
@@ -35,7 +37,7 @@ aside, section {
 }
 
 aside {
-	width: 15vw;
+	width: 20%;
 	display: inline-block;
 }
 
