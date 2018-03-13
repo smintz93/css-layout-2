@@ -1,5 +1,5 @@
-html
-{	margin: 0px;
+html {
+	margin: 0px;
 	padding: 0px;
 }
 
@@ -8,21 +8,40 @@ body {
 	}
 
 body * {
-	border: 1px solid black;
+	border: 1px solid-black;
 	background-color: grey;
-
 }
 
 header, footer {
-	height: 130px;
+	height: 15vh;
+	padding: 10px;
+}
+
+header {
+	margin-bottom: 12px;
+}
+
+footer {
+	margin-top: 8px;
+	padding: 0px;
+	
+
+}
+
+aside, section {
+	height: 50vh;
+	padding: 10px;
+
+}
+
+aside {
+	width: 15vw;
+	display: inline-block;
 }
 
 section {
-	border: 1px solid black;
-}
-
-div {
+	margin-left: 5px;
+	margin-right: 5px;
+	width: 45vw;
 	display: inline-block;
-	height: 50px;
-	width: 150px;
 }
